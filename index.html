@@ -1,184 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | Calorie Tracker</title>
+  <meta name="description" content="How Calorie Tracker handles optional Firebase event measurement, subscriptions, food-analysis inputs and your privacy choices.">
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.7; color: #202735; background: #f5f7fc; }
+    body { margin: 0; } main { max-width: 780px; margin: 0 auto; padding: 48px 24px 72px; }
+    h1 { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.15; margin-bottom: 12px; letter-spacing: -.035em; }
+    h2 { font-size: 1.35rem; line-height: 1.3; margin-top: 36px; } h3 { font-size: 1.1rem; margin-top: 24px; }
+    p, li { overflow-wrap: anywhere; } li { margin: 8px 0; } ul { padding-left: 24px; }
+    a { color: #1357bb; text-underline-offset: 3px; } a:focus-visible { outline: 3px solid #73adff; outline-offset: 4px; }
+    .date { color: #536073; } .summary { padding: 20px 24px; background: #e8effc; border-radius: 16px; margin: 28px 0; }
+    .summary p { margin: 0; } footer { border-top: 1px solid #cfd7e5; padding-top: 24px; margin-top: 36px; }
+    @media (prefers-color-scheme: dark) { :root { color: #e9edf5; background: #0c0f16; } a { color: #91bdff; } .date { color: #b4bdcc; } .summary { background: #18253b; } footer { border-color: #384254; } }
+  </style>
 </head>
-
 <body>
+<main>
+  <header>
+    <p>Calorie Tracker</p>
     <h1>Privacy Policy</h1>
-    ('I', 'me') refers to the software developer, who developed this android application.
-    <br><br>
-    I built the ShapeUpMe: Calorie Tracker app . This SERVICE is provided by and is intended for
-    use as is.
-    This page is used to inform visitors
-    regarding my policies with the collection,
-    use, and disclosure of Personal
-    Information if anyone decided to use my
-    Service.
-    <br><br>
-    If you choose to use my Service, then
-    you agree to the collection and use of
-    information in relation to this policy. The
-    Personal Information that I collect is used
-    for providing and improving the Service.
-    I will not use or share your information
-    with anyone except as described in this
-    Privacy Policy.
-    <br><br>
-    The terms used in this Privacy Policy
-    have the same meanings as in our Terms
-    and Conditions, which is accessible at
-    HabitMate unless
-    otherwise defined in this Privacy Policy.
-    <br><br>
-    <h3>Information Collection and Use</h3>
+    <p class="date">Last updated: <time datetime="2026-09-15">15 September 2026</time></p>
+    <p>This policy describes how Calorie Tracker, also known in earlier versions as ShapeUpMe: Calorie Tracker, handles information. “I,” “we” and “us” refer to the app’s developer, Anmol Kulshreshtha. Contact: <a href="mailto:anmolsoftwaredeveloper@gmail.com">anmolsoftwaredeveloper@gmail.com</a>.</p>
+    <p>The native iOS measurement practices below apply to the updated native app. Android and older app versions may have different measurement controls, as explained below. Using the app does not, by itself, grant permission for optional analytics.</p>
+  </header>
 
-    <br><br>
-    For a better experience, while using our
-    Service, I may require you to provide
-    us with certain personally identifiable
-    information.
+  <aside class="summary" aria-label="Native iOS privacy summary">
+    <p><strong>For the updated native iOS app:</strong> Firebase usage measurement is optional and stays off until you choose Allow. We ask while your starting plan is being built. Your choice does not change your plan or access to app features. The native app does not request Apple’s advertising-tracking permission or collect IDFA for attribution.</p>
+  </aside>
 
-    <h2>3) Data processing for contract processing</h2>
+  <section aria-labelledby="usage">
+    <h2 id="usage">Optional Firebase event measurement</h2>
+    <p>With your permission, we use Google Analytics for Firebase (GA4) to understand where onboarding is difficult, which subscription steps succeed or fail, and whether food logging works reliably.</p>
+    <h3>What the events contain</h3>
+    <ul>
+      <li><strong>Onboarding:</strong> screen identifiers, screen order, forward and back navigation, time spent actively viewing a screen, and bounded validation or save-failure categories.</li>
+      <li><strong>Subscriptions:</strong> offer loading, paywall views, selected product or package identifiers, checkout, cancellation, failure, confirmed purchase or trial outcomes, and restore results. A trial preview or purchase-button tap is not recorded as a confirmed trial.</li>
+      <li><strong>Food-logging reliability:</strong> the selected logging method, capture and analysis starts, completion, retries, cancellation, failure categories, processing time, review/edit actions, and whether a meal was successfully saved. Saving your first new food entry can produce a first-use milestone.</li>
+      <li><strong>Technical context:</strong> app and operating-system information, device information, language, timestamps, and a Firebase app-instance identifier. Event, onboarding-journey, screen-visit and operation identifiers help associate related actions and avoid counting duplicates.</li>
+    </ul>
+    <p>This is identifier-based, <strong>pseudonymous information, not fully anonymous data</strong>. It can distinguish an app installation or a sequence of interactions without including your name.</p>
+    <h3>What our native analytics events do not contain</h3>
+    <p>We do not include your onboarding answers, body measurements, birth year, gender, dietary choices, Health records, meal contents, photographs, barcodes, voice transcripts, food descriptions, AI prompts or raw error messages in these event payloads. We use limited error categories rather than the content that caused an error. These events are not used to create advertising audiences based on nutrition, body goals or Health information.</p>
+  </section>
 
-    <h3>Advertising Identifiers and Tracking</h3>
-<p>
-This app uses advertising identifiers such as the Android Advertising ID (AAID) and Apple Identifier for Advertisers (IDFA), where permitted by the user. These identifiers are used to measure the effectiveness of marketing campaigns and understand how users discover and use the app.
-</p>
+  <section aria-labelledby="choice">
+    <h2 id="choice">Your measurement choice</h2>
+    <p>New native iOS users enter Welcome without an analytics prompt. During <strong>“Building your starting plan,”</strong> an English-language native dialog asks <strong>“Allow usage measurement?”</strong> with <strong>Allow</strong> and <strong>Not now</strong>. Calculation, saving and the progress animation continue independently of the dialog.</p>
+    <p>Firebase Analytics collection remains disabled until Allow is successfully saved. Choosing Not now leaves it disabled and does not limit app features. If saving the choice fails, collection stays off and you can retry. Previously saved choices are respected; we do not ask again simply because you relaunch the app.</p>
+    <p>For existing users who have completed onboarding but have no saved choice, the same optional dialog appears on Today. Users who resume an older draft beyond plan generation can finish normally and receive that Today prompt. Onboarding replay and ordinary previews do not request consent or generate usage events.</p>
+    <p>When you allow measurement partway through onboarding, measurement begins with the screen currently visible. We do not queue earlier interactions and upload them afterward. Consequently, our reports cannot measure your earlier onboarding activity from before that consent.</p>
+    <p>You can change your choice in <strong>Settings → Privacy → Usage measurement</strong>. Turning it off stops optional Firebase Analytics collection, resets the local analytics identity and removes the Firebase app-instance association supplied to RevenueCat. It does not erase your diary or cancel your subscription.</p>
+    <p>Withdrawal does not automatically delete information already received by service providers or purchase records needed to manage a subscription. You can contact us with an access or deletion request using the address below.</p>
+  </section>
 
-<p>
-On iOS, we request permission via App Tracking Transparency (ATT) before accessing the IDFA. If the user declines, no tracking using IDFA is performed.
-</p>
+  <section aria-labelledby="ads">
+    <h2 id="ads">Advertising identifiers and version differences</h2>
+    <p>The updated native iOS app does not request App Tracking Transparency (ATT) permission, collect the Identifier for Advertisers (IDFA), or enable Apple Ads attribution-token collection. Firebase’s collection of the Identifier for Vendors (IDFV) is also disabled. Advertising storage, advertising user data and ad personalization remain denied even if you previously authorized ATT in an older version. A Firebase app-instance identifier is still used when you allow usage measurement.</p>
+    <p><strong>Android and older versions:</strong> earlier versions described by this policy may use the Android Advertising ID (AAID), or IDFA on iOS with ATT permission, for campaign measurement. Their own measurement settings and platform permissions apply. Updating this policy does not change the behavior of an older installed binary. The native iOS dialog and advertising-removal changes above should not be read as a claim that every older or Android version has the same implementation.</p>
+  </section>
 
-    <h3>Analytics</h3>
-<p>
-We use Firebase Analytics, a service provided by Google, to collect anonymous usage data such as app interactions, session duration, and feature usage. Firebase may collect device identifiers such as a unique app instance ID and, where permitted, advertising identifiers.
-</p>
+  <section aria-labelledby="subscriptions">
+    <h2 id="subscriptions">Purchases and RevenueCat</h2>
+    <p>Apple App Store or Google Play handles purchase payment. RevenueCat helps the app retrieve products, validate purchase status, restore purchases and determine subscription access. This involves app-user identifiers, store transaction information, product identifiers and subscription status. The app does not receive your full payment-card details.</p>
+    <p>When native usage measurement is allowed, we associate the Firebase app-instance identifier with RevenueCat so subscription lifecycle events, such as renewals, cancellation, expiry or billing issues, can be reported through the configured Firebase integration. Withdrawal clears that association for future reporting; it does not delete essential RevenueCat or store purchase records. Subscription access and restore functionality continue to operate without optional usage measurement.</p>
+    <p>See <a href="https://www.revenuecat.com/privacy">RevenueCat’s Privacy Policy</a>.</p>
+  </section>
 
-<p>
-This information is used to analyze app performance, improve features, and understand user behavior. The data is transmitted securely and processed in accordance with Google's privacy policies.
-</p>
+  <section aria-labelledby="features">
+    <h2 id="features">Information needed for the features you use</h2>
+    <p>Your diary, goals and preferences are used to provide the app’s tracking features. The native iOS app saves diary information on your device. Optional device features, such as camera, microphone, photo selection, notifications and Apple Health, have separate permissions or user actions. Analytics consent does not grant those permissions.</p>
+    <p>When you request food analysis, the relevant text or image input is sent to Google’s Firebase AI services to generate a result. Those feature inputs are separate from Firebase Analytics event payloads: choosing not to allow usage measurement does not prevent the processing needed for an analysis you request. Provider handling and retention of AI inputs are governed by the applicable Google service terms and privacy information.</p>
+    <p>Firebase App Check helps protect backend requests, and Firebase Remote Config supplies app configuration. These operational services may process installation identifiers, app/device attestation information and security tokens independently of optional Analytics. Turning off usage measurement is not a switch that disables every network service required by the app.</p>
+    <p>If you contact us, we receive the email address and information you choose to include in your message. Please avoid sending sensitive diary or Health information unless necessary for your request.</p>
+    <p>Further information: <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a> and <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.</p>
+  </section>
 
-    <h3>Personal Data</h3>
-<p>
-We do not collect personally identifiable information such as your name, email address, phone number, or physical address.
-</p>
-    
-    <h3>3.1 For the processing of contracts concluded via the app, we work together with the following service
-        provider(s), who support us in whole or in part in the implementation of concluded contracts. Certain personal
-        data is transmitted to these service providers in accordance with the following information.</h3>
-    <p>The personal data collected by us will be passed on to the transport company commissioned with the delivery as
-        part of the contract, insofar as this is necessary for the delivery of the goods. We pass on your payment data
-        to the commissioned credit institute as part of the payment process, provided this is necessary for the payment
-        process. If payment service providers are used, we will explicitly inform you of this below.</p>
+  <section aria-labelledby="retention">
+    <h2 id="retention">Retention and privacy requests</h2>
+    <p>Information is retained for the purposes described in this policy, subject to the service’s configured retention settings and any requirements relating to subscriptions, security, support or legal obligations. Resetting the app’s local analytics identity is not a promise that previously collected records are immediately deleted from every provider.</p>
+    <p>To ask about information associated with your use of the app, or request access, correction or deletion, email <a href="mailto:anmolsoftwaredeveloper@gmail.com">anmolsoftwaredeveloper@gmail.com</a>. We may need additional information to locate the relevant records and verify your request. Applicable privacy rights depend on your location.</p>
+  </section>
 
-    <h3>3.2 - RevenueCat</h3>
-    <p>In the case of in-app payments, payment is made via RevenueCat Inc., 300 Euclid Avenue San Francisco, CA 94118,
-        USA. to whom we pass on the information you provided during the ordering process together with the information
-        about your order. Your data will be passed on in accordance with Article 6 Paragraph 1 Letter b GDPR exclusively
-        for the purpose of payment processing and only to the extent that it is necessary for this. We have concluded an
-        order processing contract with RevenueCat Inc., with which we oblige the provider to protect the data of the app
-        users and not to pass it on to third parties.</p>
-    <p>Further information on data protection by RevenueCat can be found <a
-            href="https://www.revenuecat.com/privacy">here</a>.</p>
+  <section aria-labelledby="providers">
+    <h2 id="providers">Service providers, websites and security</h2>
+    <p>We use service providers to operate app features, manage subscriptions, secure requests, provide support and, with the choice described above, measure usage. Providers may process information outside your country under their applicable terms and privacy arrangements.</p>
+    <p>This privacy-policy page does not include our own analytics scripts or advertising cookies. Its host, Vercel, may process ordinary request information to serve and secure the page. Linked websites have their own privacy and cookie policies. See <a href="https://vercel.com/legal/privacy-policy">Vercel’s Privacy Policy</a>.</p>
+    <p>We use reasonable measures to protect information, but no method of transmission or electronic storage is completely secure.</p>
+  </section>
 
+  <section aria-labelledby="children">
+    <h2 id="children">Children’s privacy</h2>
+    <p>The service is not directed to children under 13, and the native iOS onboarding is intended for adults aged 18 or over. If you believe a child has provided personal information, please contact us so we can investigate and address the request.</p>
+  </section>
 
-    <h3>3.3 - AI Feature and Image Processing</h3>
-    <p>ShapeUpMe: Calorie Tracker utilizes **Firebase Vertex AI** to provide AI-powered features, including **text-based assistance and image scanning for food recognition**. Any text or images provided by users are **processed in real-time** and are **not stored** on our servers. These inputs are solely used to enhance the AI-driven experience within the app.</p>
-<p>Further information on data protection by Vertex AI in Firebase can be found <a
-            href="https://firebase.google.com/docs/ios/app-store-data-collection">here</a>.
+  <footer>
+    <h2>Changes and contact</h2>
+    <p>We may update this policy as the app and its services change. The date above identifies the latest revision. For questions or privacy requests, contact <a href="mailto:anmolsoftwaredeveloper@gmail.com">anmolsoftwaredeveloper@gmail.com</a>.</p>
+    <p><a href="https://shape-up-me-termsofuse.vercel.app">Terms of Use</a></p>
+  </footer>
+</main>
 </body>
-
-
-<br>
-
-
-<h3>Cookies</h3>
-
-Cookies are files with a small amount
-of data that are commonly used as
-anonymous unique identifiers. These are
-sent to your browser from the websites
-that you visit and are stored on your
-device's internal memory.
-
-<br>
-<br>
-This Service does not use these "cookies"
-explicitly. However, the app may use third
-party code and libraries in future that use "cookies"
-to collect information and improve
-their services but if app intigrates such services then you will be informed. You have the option to
-either accept or refuse these cookies
-and know when a cookie is being sent to
-your device. If you choose to refuse our
-cookies, you may not be able to use some
-portions of this Service.
-<br>
-<br>
-<h3>Service Providers</h3>
-
-I may employ third-party companies and
-individuals due to the following reasons:
-To facilitate our Service;
-To provide the Service on our behalf;
-To perform Service-related services; or
-To assist us in analyzing how our Service
-is used.
-<br>
-<br>
-
-
-<h3>Security</h3>
-
-
-I value your trust in providing us your
-Personal Information, thus we are
-striving to use commercially acceptable
-means of protecting it. But remember
-that no method of transmission over the
-internet, or method of electronic storage
-is 100% secure and reliable, and I cannot
-guarantee its absolute security.
-
-<br><br>
-<h3> Children's Privacy</h3>
-<br>
-<br>
-
-Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information
-from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with
-Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of
-13 without verification of parental consent, We take steps to remove that information from Our servers.
-<br>
-<br>
-<h3>Links to Other Sites</h3>
-
-This Service may contain links to other
-sites. If you click on a third-party link, you
-will be directed to that site. Note that
-these external sites are not operated
-by me. Therefore, I strongly advise you
-to review the Privacy Policy of these
-websites. I have no control over and
-assume no responsibility for the content,
-privacy policies, or practices of any
-third-party sites or services.
-<br>
-<br>
-<h3>Contact Us</h3>
-<br>
-
-
-It should be noted that whether or not to send us your feedback or bug report is a completely voluntary initiative upon
-your own decision. If you have a concern about your personal data being misused, or if you want further information
-about our privacy policy and what it means, please feel free to email us at support anmolsoftwaredeveloper@gmail.com, we
-will endeavor to provide clear answers to your questions in a timely manner.
-
-</body>
-
 </html>
